@@ -34,7 +34,7 @@ class Profile extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 10),
-                  const Icon(Icons.person, size: 100, color: Colors.blueAccent),
+                  const Icon(Icons.person, size: 100, color: Colors.lightBlue),
                 ],
               ),
             ),
