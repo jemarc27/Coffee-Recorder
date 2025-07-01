@@ -38,6 +38,12 @@ class _ListitemState extends State<Listitem> {
             return Itemcard(coffee: coffee);
           }).toList(),
     ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pushNamed(context, '/Add');
+        },
+        child: Icon(Icons.add),
+      ),
     );
 
   }
